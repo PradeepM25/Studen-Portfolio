@@ -17,12 +17,12 @@ To run this portfolio website locally, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/portfolio-ghpages.git
+    git clone https://github.com/PradeepM25/Studen-Portfolio/tree/main
     ```
 
 2. **Navigate to the project directory**:
     ```sh
-    cd your-portfolio-repo
+    cd index.html
     ```
 
 3. **Open the `index.html` file in your browser**:
