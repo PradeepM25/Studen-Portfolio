@@ -533,3 +533,168 @@ footer {
     margin: 0; 
     font-size: 14px;
 }
+
+@media (max-width: 767px) {
+    .breif {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .briefdetails {
+        margin-left: 0;
+        max-width: 100%;
+        transform: scaleX(1);
+    }
+
+    .moveup {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .sechead {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .secnav a {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .pk {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .sechome {
+        padding: 30px 5%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hello h3 {
+        font-size: 28px;
+    }
+
+    .hello h1 {
+        font-size: 36px;
+    }
+
+    .about {
+        padding: 30px 5%;
+        grid-template-columns: 1fr;
+    }
+
+    .about-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h4 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .additional-info {
+        padding: 20px;
+    }
+
+    .skills-section,
+    .projects-section,
+    .contact {
+        padding: 30px 5%;
+    }
+
+    .skills-grid,
+    .projects-grid {
+        flex-direction: column;
+    }
+
+    .skill-item,
+    .project-item {
+        flex: 1 1 100%;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .breif {
+        flex-direction: column;
+    }
+
+    .briefdetails {
+        max-width: 80%;
+    }
+
+    .sechead {
+        padding: 15px;
+    }
+
+    .secnav a {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .pk {
+        font-size: 25px;
+    }
+
+    .sechome {
+        padding: 50px 7%;
+        background-size: contain;
+    }
+
+    .hello h3 {
+        font-size: 35px;
+    }
+
+    .hello h1 {
+        font-size: 48px;
+    }
+
+    .about {
+        padding: 50px 7%;
+    }
+
+    .about-img img {
+        width: 85%;
+    }
+
+    .about-text h2 {
+        font-size: 50px;
+    }
+
+    .about-text h4 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .skills-grid,
+    .projects-grid {
+        flex-wrap: wrap;
+    }
+
+    .skill-item,
+    .project-item {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+}
