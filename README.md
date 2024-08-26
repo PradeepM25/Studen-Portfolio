@@ -4,7 +4,6 @@
 A website designed specifically for my personal portfolio to display my skills, projects, and awards as a student. This portfolio was created with HTML, CSS, and JavaScript and showcases what I can do both in code and in real life.
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Project Skeleton](#project-skeleton)
@@ -12,25 +11,7 @@ A website designed specifically for my personal portfolio to display my skills, 
 - [License](#license)
 - [Contact](#contact)
 
-## Installation
-To run this portfolio website locally, follow these steps:
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/PradeepM25/Studen-Portfolio/tree/main
-    ```
-
-2. **Navigate to the project directory**:
-    ```sh
-    cd index.html
-    ```
-
-3. **Open the `index.html` file in your browser**:
-    You can either open the file directly from your file system or use a simple local server:
-    ```sh
-    npx http-server .
-    ```
-    Then, open your web browser and navigate to `http://localhost:8080`.
 
 ## Usage
 Navigate through the different sections of the portfolio to learn more about me:
