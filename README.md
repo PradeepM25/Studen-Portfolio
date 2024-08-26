@@ -27,5 +27,4 @@ Navigate through the different sections of the portfolio to learn more about me:
 - **Interactive Elements**: Smooth scrolling and hover effects for a better user experience.
 - **Animated Sections**: Animations to make the site more engaging.
 
-## Project Skeleton
-The basic structure of the project is as follows:
+
